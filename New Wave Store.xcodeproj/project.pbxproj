@@ -11,6 +11,7 @@
 		83BD2B17292BAA0500B94A76 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BD2B16292BAA0500B94A76 /* ContentView.swift */; };
 		83BD2B19292BAA0600B94A76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83BD2B18292BAA0600B94A76 /* Assets.xcassets */; };
 		83BD2B1C292BAA0600B94A76 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83BD2B1B292BAA0600B94A76 /* Preview Assets.xcassets */; };
+		83BD2B23292BAAAD00B94A76 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BD2B22292BAAAD00B94A76 /* Product.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		83BD2B16292BAA0500B94A76 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		83BD2B18292BAA0600B94A76 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		83BD2B1B292BAA0600B94A76 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		83BD2B22292BAAAD00B94A76 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +53,9 @@
 		83BD2B13292BAA0500B94A76 /* New Wave Store */ = {
 			isa = PBXGroup;
 			children = (
+				83BD2B25292BAC8C00B94A76 /* Views */,
+				83BD2B24292BAC6000B94A76 /* Model */,
 				83BD2B14292BAA0500B94A76 /* New_Wave_StoreApp.swift */,
-				83BD2B16292BAA0500B94A76 /* ContentView.swift */,
 				83BD2B18292BAA0600B94A76 /* Assets.xcassets */,
 				83BD2B1A292BAA0600B94A76 /* Preview Content */,
 			);
@@ -65,6 +68,22 @@
 				83BD2B1B292BAA0600B94A76 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		83BD2B24292BAC6000B94A76 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				83BD2B22292BAAAD00B94A76 /* Product.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		83BD2B25292BAC8C00B94A76 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				83BD2B16292BAA0500B94A76 /* ContentView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +158,7 @@
 			files = (
 				83BD2B17292BAA0500B94A76 /* ContentView.swift in Sources */,
 				83BD2B15292BAA0500B94A76 /* New_Wave_StoreApp.swift in Sources */,
+				83BD2B23292BAAAD00B94A76 /* Product.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
